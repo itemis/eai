@@ -29,4 +29,4 @@ Bundle-ClassPath: .,
  lib/rxkotlin-2.4.0.jar,
  lib/rxjava-2.2.21.jar,
  lib/reactive-streams-1.0.4.jar
-Bundle-RequiredExecutionEnvironment: JavaSE-19
+Bundle-RequiredExecutionEnvironment: JavaSE-17
