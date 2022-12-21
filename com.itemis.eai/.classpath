@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/reactive-streams-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/rxjava-2.2.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/rxkotlin-2.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/okio-jvm-3.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/kotlin-stdlib-1.7.22.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-annotations-2.14.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-core-2.14.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-databind-2.14.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/adapter-rxjava2-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/adapter-rxjava3-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/api-0.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/client-0.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/converter-gson-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/converter-jackson-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/logging-interceptor-4.10.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/okhttp-4.10.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/retrofit-2.9.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

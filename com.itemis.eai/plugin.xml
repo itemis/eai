@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.itemis.eai.prefernce.OpenAIPreferences">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.itemis.eai.preference.OpenAIPreferencePage"
+            id="com.itemis.eai.preferencePage"
+            name="OpenAI">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.itemis.eai.question.QuestionHandler"
+            description="Ask Open AI a question and display the answer"
+            id="com.itemis.eai.questionCommand"
+            name="Question">
+      </command>
+      <command
+            categoryId="org.eclipse.ui.category.textEditor"
+            defaultHandler="com.itemis.eai.rework.ReworkHandler"
+            description="Rework the given code using OpenAI"
+            id="com.itemis.eai.reworkCommand"
+            name="Rework">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.itemis.eai.reworkCommand"
+            contextId="org.eclipse.ui.textEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+M3+R">
+      </key>
+      <key
+            commandId="com.itemis.eai.questionCommand"
+            contextId="org.eclipse.ui.textEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+M3+Q">
+      </key>
+   </extension>
+
+</plugin>
