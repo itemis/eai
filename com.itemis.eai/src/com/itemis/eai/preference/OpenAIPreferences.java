@@ -1,4 +1,4 @@
-package com.itemis.eai.prefernce;
+package com.itemis.eai.preference;
 
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.jface.preference.IPreferenceStore;

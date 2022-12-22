@@ -3,7 +3,7 @@ package com.itemis.eai;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
-import com.itemis.eai.prefernce.OpenAIPreferences;
+import com.itemis.eai.preference.OpenAIPreferences;
 import com.theokanning.openai.OpenAiService;
 
 public class OpenAI extends AbstractUIPlugin {

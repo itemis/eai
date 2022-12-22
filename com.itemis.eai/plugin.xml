@@ -4,7 +4,7 @@
    <extension
          point="org.eclipse.core.runtime.preferences">
       <initializer
-            class="com.itemis.eai.prefernce.OpenAIPreferences">
+            class="com.itemis.eai.preference.OpenAIPreferences">
       </initializer>
    </extension>
    <extension

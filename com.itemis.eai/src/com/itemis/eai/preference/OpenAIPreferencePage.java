@@ -12,8 +12,6 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 
-import com.itemis.eai.prefernce.OpenAIPreferences;
-
 public class OpenAIPreferencePage extends PreferencePage implements IWorkbenchPreferencePage {
 
 	private Text apiKeyField;
